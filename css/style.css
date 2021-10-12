@@ -1,20 +1,32 @@
 .body {
-margin-top: 0px;
-margin-left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
+
 .header {
-    display: inline-block;
     height: auto;
-    background: url(../img/who_we_are.jpg) 
-    center no-repeat;
+    background: url(../img/who_we_are.jpg) center no-repeat;
     background-size: cover;
 }
 
-.nav {
+.header__menu {
     display: flex;
     justify-content: center;
+}
+
+.nav {
     margin: 0 auto;
     padding-top: 48px;
+}
+
+.link {
+    font-family: 'IBM Plex Sans Arabic';
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .actlink {
@@ -22,37 +34,29 @@ margin-left: 0px;
     opacity: 60%;
 }
 
-.link {
-    font-family: 'IBM Plex Sans Arabic';
-    font-weight: 500;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 18px;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
 .number {
-    font-family: 'IBM Plex Sans Arabic';
-    font-weight: 500;
-    font-size: 18px;
+    margin-right: 25px;
     color: #F6674D;
-    text-decoration: none;
 }
 
-.btn {
-    margin-right: 110px;
-    float: right;
+.header__button {
+    margin-left: 25px;
+    padding: 8px 24px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #F6674D;
+    border: 0;
+    border-radius: 20px;
 }
 
 .container {
-    width: auto;
+    width: 780px;
     max-width: 1400px;
-    margin-left: 310px;
-    margin-right: 310px;
+    margin: 0 auto;
 }
 
-.intro {
+.header__intro {
     margin-top: 78px;
 }
 
@@ -61,95 +65,90 @@ margin-left: 0px;
     height: 21px;
     left: 312px;
     top: 150px;
-
     font-family: 'IBM Plex Sans Arabic';
     font-size: 16px;
     color: #FFFFFF;
     opacity: 50%;
 }
 
-.h1 {
+.header__title {
     max-width: 1400px;
     margin: 0 auto;
     font-family: 'IBM Plex Sans Arabic';
+    font-style: normal;
     font-weight: bold;
     font-size: 56px;
-
+    line-height: 73px;
     color: #FFFFFF;
-    
 }
 
-.text {
+.header__text {
     max-width: 1400px;
     margin-top: 20px;
-    margin-bottom: 71px;
+    padding-bottom: 71px;
     font-family: 'IBM Plex Sans Arabic';
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
 }
 
-.h2, h3, h4 {
+.content {
     margin-top: 60px;
-    margin-bottom: 0px;
+}
+
+.content__title {
     font-family: 'IBM Plex Sans Arabic';
     font-size: 48px;
 }
 
-.middle_block {
-    display: inline-block;
-    height: auto;
-    background: url(../img/middle_block.jpg) 
-    center no-repeat;
+.middle-block {
+    background: url(../img/middle_block.jpg) center no-repeat;
     background-size: cover;
 }
 
-.text2 {
+.content__text {
     max-width: 1400px;
-    margin-top: 20px;
-    margin-bottom: 60px;
     font-family: 'IBM Plex Sans Arabic';
     font-size: 18px;
-    line-height: 29px;
+    line-height: 28, 6px;
 }
 
-.bottom_block {
-    display: inline-block;
+.testimonials_block {
     height: auto;
-    background: url(../img/bottom_block.jpg) 
-    center no-repeat;
+    background: url(../img/bottom_block.jpg) center no-repeat;
     background-size: cover;
 }
 
-.testimonials {
+.testimonials_title {
     margin-top: 60px;
     margin-left: 110px;
     margin-right: 310px;
 }
 
 .parent {
+    justify-content: center;
     font-family: 'IBM Plex Sans Arabic';
     font-weight: 400;
     font-size: 18px;
-    line-height: 29,25px;
+    line-height: 29, 25px;
     color: #FFFFFF;
     display: flex;
     margin-left: 130px;
     margin-right: 130px;
-    margin-top: 51px;
 }
 
-.h6 {
+.testimonials_card_name {
     font-family: 'IBM Plex Sans Arabic';
     font-weight: 600;
     font-size: 20px;
-    line-height: 28,6px;
+    line-height: 28, 6px;
     color: #FFFFFF;
 }
 
-.block1 {
-    display: flex;
-    justify-content: space-evenly;
+.testimonials_card {
     margin-left: 30px;
     margin-right: 30px;
+    max-width: 340px;
 }
+
+.testimonials_card_desc {}

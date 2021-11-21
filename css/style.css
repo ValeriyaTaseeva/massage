@@ -1,6 +1,5 @@
-.body {
-    margin-top: 0px;
-    margin-left: 0px;
+body {
+    margin: 0px;
 }
 
 .header {
@@ -15,11 +14,11 @@
 }
 
 .nav {
-    margin: 0 auto;
+    margin: 0px;
     padding-top: 48px;
 }
 
-.link {
+.nav__link {
     font-family: 'IBM Plex Sans Arabic';
     font-weight: 500;
     font-size: 18px;
@@ -34,7 +33,7 @@
     opacity: 60%;
 }
 
-.number {
+.header__phone-number {
     margin-right: 25px;
     color: #F6674D;
 }
@@ -56,13 +55,12 @@
     margin: 0 auto;
 }
 
-.header__intro {
+.intro {
     margin-top: 78px;
 }
 
 .home {
     width: 580px;
-    height: 21px;
     left: 312px;
     top: 150px;
     font-family: 'IBM Plex Sans Arabic';
@@ -101,7 +99,7 @@
     font-size: 48px;
 }
 
-.middle-block {
+.specialist-description {
     background: url(../img/middle_block.jpg) center no-repeat;
     background-size: cover;
 }
@@ -110,27 +108,20 @@
     max-width: 1400px;
     font-family: 'IBM Plex Sans Arabic';
     font-size: 18px;
-    line-height: 28, 6px;
+    line-height: 28px;
 }
 
 .testimonials_block {
-    height: auto;
     background: url(../img/bottom_block.jpg) center no-repeat;
     background-size: cover;
 }
 
-.testimonials_title {
-    margin-top: 60px;
-    margin-left: 110px;
-    margin-right: 310px;
-}
-
-.parent {
+.testimonials__wrap-carrs {
     justify-content: center;
     font-family: 'IBM Plex Sans Arabic';
     font-weight: 400;
     font-size: 18px;
-    line-height: 29, 25px;
+    line-height: 29px;
     color: #FFFFFF;
     display: flex;
     margin-left: 130px;
@@ -150,5 +141,3 @@
     margin-right: 30px;
     max-width: 340px;
 }
-
-.testimonials_card_desc {}
